@@ -431,7 +431,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
+
 .footer-address {
+  margin-right: 70px;
   margin-top: 30px;
   font-style: normal;
 }
@@ -477,7 +479,7 @@ body {
   display: flex;
 }
 .footer-socials {
-  margin-left: 80px;
+  margin-right: 93px;
 }
 .footer-socials-list {
   display: flex;
@@ -501,6 +503,54 @@ body {
 
 .footer-social-icon {
   fill: var(--third-text-color);
+}
+.subscribe-form {
+  width: 570px;
+  margin-left: auto;
+}
+
+.subsriotin-form-view {
+  display: flex;
+  flex: wrap;
+}
+.subsribe-form-input {
+width: 358px;
+height: 50px;
+padding: 16px 15px;
+background-color: transparent;
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+transition: border-color 250ms var(--timing-function);
+}
+.subsribe-form-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* .subsribe-form-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+} */
+.subsribe-form-input:hover,
+.subsribe-form-input:focus {
+  border-color: var(--accent-color);
+}
+
+.subsribe-form-btn {
+ margin-top: 0px;
+ margin-left: 12px;
+ display: flex;
+}
+
+.subsribe-form-icon {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
 }
 
 /*portfolio*/
