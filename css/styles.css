@@ -529,12 +529,7 @@ transition: border-color 250ms var(--timing-function);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-/* .subsribe-form-input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-} */
+
 .subsribe-form-input:hover,
 .subsribe-form-input:focus {
   border-color: var(--accent-color);
@@ -663,6 +658,8 @@ transition: border-color 250ms var(--timing-function);
   margin-right: 10px;
   justify-content: center;
 }
+
+
 
 /* modal */
 
