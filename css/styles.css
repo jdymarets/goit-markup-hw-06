@@ -154,7 +154,11 @@ body {
 .contacts-link:focus {
   color: var(--accent-color);
 }
-
+.contacts-icon {
+  fill: currentColor;
+  margin-right: 10px;
+  justify-content: center;
+}
 .hero-section {
   background-color: #2f303a;
   padding-top: 200px;
@@ -636,12 +640,6 @@ body {
   color: var(--second-text-color);
 }
 
-.contacts-icon {
-  fill: currentColor;
-  margin-right: 10px;
-  justify-content: center;
-}
-
 /* modal */
 
 .backdrop {
@@ -761,6 +759,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .modal-form-checkbox-lebel::before {
   display: block;
@@ -768,7 +767,6 @@ body {
   margin-right: 7px;
   width: 16px;
   height: 15px;
-  cursor: pointer;
   border: 2px solid var(--primary-title-color);
   border-radius: 2px;
   transition: border-color 250ms var(--timing-function),
